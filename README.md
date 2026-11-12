@@ -20,7 +20,7 @@ Steam no longer allows running the same game on multiple devices simultaneously.
 
 ```bash
 # Clone the repository
-git clone <repo-url> sam-for-linux
+git clone https://github.com/eeswes/sam-for-linux
 cd sam-for-linux
 
 # PyQt6 is the only dependency (install via system package or pip)
