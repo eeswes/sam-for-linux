@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# NEVER commit Valve proprietary binaries.
+# libsteam_api.so must be copied by each user on their own machine via
+#   python main.py install-lib
+# Committing it would redistribute a copyrighted binary without that right.
+vendor/
+*.so
+*.dll
+
+# Local config / cache
+.config/
